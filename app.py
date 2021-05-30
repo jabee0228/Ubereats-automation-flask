@@ -69,8 +69,12 @@ def handle_message(event):
         line_bot_api.reply_message(event.reply_token, message)
     else:
         # message = TextSendMessage(text=msg)
-        message = uber()
-        line_bot_api.reply_message(event.reply_token, message)
+        try:
+            message = uber()
+            line_bot_api.reply_message(event.reply_token, message)
+        except:
+            message = "failed"
+            line_bot_api.reply_message(event.reply_token, message)
 
 import os
 if __name__ == "__main__":
