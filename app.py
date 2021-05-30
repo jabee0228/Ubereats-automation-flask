@@ -13,6 +13,7 @@ from linebot.models import *
 from message import *
 from new import *
 from Function import function_list
+from main import uber
 #======這裡是呼叫的檔案內容=====
 
 #======python的函數庫==========
@@ -68,7 +69,7 @@ def handle_message(event):
         line_bot_api.reply_message(event.reply_token, message)
     else:
         # message = TextSendMessage(text=msg)
-        message = TextSendMessage(text="hi")
+        message = uber()
         line_bot_api.reply_message(event.reply_token, message)
 
 import os
