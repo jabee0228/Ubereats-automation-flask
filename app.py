@@ -73,6 +73,7 @@ def handle_message(event):
         try:
             message = uber()
             print("outuber")
+            print(message)
             line_bot_api.reply_message(event.reply_token, message)
         except:
             message = "failed"
