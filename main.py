@@ -6,6 +6,7 @@ import urllib.request
 import bs4
 import ssl
 def uber():
+    print("intouber")
     url2 ="https://www.ubereats.com/tw/taipei/food-delivery/%E8%90%8A%E7%88%BE%E5%AF%8C4158%E5%8C%97%E5%B8%82%E6%96%B0%E6%98%8E%E5%BA%97/8PqQgLcHTCiRI1YkRHCuCg"
     url3 = "https://www.ubereats.com/tw/taipei/food-delivery/%E5%A4%A7%E6%BD%A4%E7%99%BC-%E5%85%A7%E6%B9%96%E4%BA%8C%E5%BA%97-rt-mart/rJyvKJoATqWTNspdU7aynw"
     url = "https://www.ubereats.com/tw/taipei/food-delivery/%E5%A4%A7%E6%BD%A4%E7%99%BC-%E5%85%A7%E6%B9%96%E4%BA%8C%E5%BA%97-rt-mart/rJyvKJoATqWTNspdU7aynw?pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMk5vLiUyMDIxJTJDJTIwTGFuZSUyMDE5NiUyQyUyMFhpYW5neWFuZyUyMFJvYWQlMjIlMkMlMjJyZWZlcmVuY2UlMjIlM0ElMjJDaElKQzBDMlZtT3JRalFSUHZZWEpYSzZqNWclMjIlMkMlMjJyZWZlcmVuY2VUeXBlJTIyJTNBJTIyZ29vZ2xlX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBMjUuMDU2ODM0NyUyQyUyMmxvbmdpdHVkZSUyMiUzQTEyMS41OTQzNDglN0Q%3D"
