@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
-import sys
-sys.path.append('static')
+# import sys
+# sys.path.append('static')
 import urllib.request as req
 import urllib.request
 import bs4
