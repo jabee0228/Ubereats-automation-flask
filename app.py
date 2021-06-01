@@ -68,10 +68,12 @@ def handle_message(event):
         message = function_list()
         line_bot_api.reply_message(event.reply_token, message)
     elif '姜義新帥嗎' in msg:
-        message = '基本上是帥到無法形容啦！'
+        msg = '基本上是帥到無法形容啦！'
+        message = TextSendMessage(text=msg)
         line_bot_api.reply_message(event.reply_token, message)
     else:
         message = TextSendMessage(text=msg)
+
         line_bot_api.reply_message(event.reply_token, message)
 
         message = uber()
